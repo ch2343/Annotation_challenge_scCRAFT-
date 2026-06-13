@@ -106,13 +106,13 @@ Then run the cells from top to bottom.
 Before running, check and update the following paths if needed:
 
 ```python
-base_dir = "/nfs/roberts/project/pi_lg689/ch2343/Annotation_challenge_data/immunespace.org/hipc-sc-comp-data/team01/recipe_data"
+base_dir = "~/immunespace.org/hipc-sc-comp-data/team01/recipe_data"
 ```
 
 and:
 
 ```python
-out_dir = "/nfs/roberts/project/pi_lg689/ch2343/Annotation_challenge_data/results"
+out_dir = "~/results"
 ```
 
 ---
@@ -403,7 +403,7 @@ If a dataset has inconsistent feature names, the function `standardize_var_names
 If an output path is different from the default project directory, update:
 
 ```python
-out_dir = "/nfs/roberts/project/pi_lg689/ch2343/Annotation_challenge_data/results"
+out_dir = "~/results"
 ```
 
 before running the final export cell.
